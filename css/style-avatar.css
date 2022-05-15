@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    background-image:url(../img/fondo-futurist.webp);
+
+
+}
+
+.fila{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 4px rgb(0, 0, 0);
+    margin-top: 120px;
+    display: flex;
+}
+
+.fila #formulario{
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(9, 201, 175);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: algerian;
+    
+}
+
+.fila #card-avatar{
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(83, 73, 73);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: algerian;
+    min-height: 100px;
+}
+
+
+.fila #formulario label{ 
+    display: block;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: left;
+    text-indent: 47px;
+    max-width: 1300px;
+
+
+}
+
+.fila #formulario input{
+    width: 400px;
+    padding: 8px 15px;
+    font-size: 24px;
+    border: 1px solid rgba(128, 128, 128, 0.11);
+
+}
+.fila #formulario select{
+    width: 430px;
+    padding: 8px 15px;
+    font-size: 24px;
+    border: 1px solid rgba(128, 128, 128, 0.158);
+}
+
+.fila #formulario textarea{
+    width: 400px;
+    padding: 8px 15px;
+    font-size: 24px;
+    border: 1px solid gray;
+
+}
+.fila #formulario button{
+    padding: 8px 12px;
+    font-size: 24px;
+    background: rgb(0, 0, 0);
+    color: rgb(150, 145, 145);
+    border: 5px outset;
+    margin-top: 20px;
+    transition: 1s;
+
+
+}
+.fila #formulario button:hover{
+    background: black;
+    padding: 8px 40px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fila #card-avatar img{
+    width: 350px;
+}
+.fila #card-avatar p b{
+    font-size: 25px;
+    margin-top: 50px;
+}   
+
+.MENU{
+    padding: 8px 20px;
+    background:red ;
+    color: white;
+    position:absolute;
+    right: 360px;
+    bottom:150px;
+    text-decoration: none ;
+    border: 5px outset;
+    transition: 1s;
+
+}
+.MENU:hover{
+    background: black;
+    padding: 8px 40px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    }

@@ -1,0 +1,178 @@
+body{ 
+    background-image: url(../img/paisa.jpg);
+    background-size: cover;
+
+
+}
+/* primer contenedor  */
+
+
+.fila {
+    width: 85%;
+    max-width: 1200px;
+    height: 600PX;
+    border: 2px solid rgb(102, 97, 97);
+    margin: 0 auto;
+    margin-top: 45px;
+    position: relative;
+    display: flex;
+
+    /* se usa para organizar espacio o distribucion de las columnas 
+    justify-content: space-evenly;
+    align-items: flex-start; */
+}
+
+.fila .cont-btn {
+    width: 50%;
+    height: 87%;
+    background: black;
+    text-align: center;
+    padding: 48PX 30PX;
+
+
+}
+
+.fila .cont-btn h2 {
+    color: aliceblue;
+    font-size: 50PX;
+    font-family: algerian;
+    margin-top: 10px;
+
+}
+
+.fila .cont-btn button {
+    padding: 8px 15px;
+    font-size: 22px;
+    border: 2px solid white;
+    margin: 10px 14px;
+    background: crimson;
+    color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: algerian;
+    border: 5px outset;
+    transition: 1s;
+
+
+}
+.fila .cont-btn button:hover{
+    background: black;
+    padding: 8px 20px;
+    color: aliceblue;
+}
+
+
+.fila .cont-fig {
+    width: 50%;
+    height: 95%;
+    background: white;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.fila .cont-fig h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50PX;
+    font-family: algerian;
+    margin-top: 10px;
+}
+
+.fila .cont-fig #figura {
+    width: 300px;
+    height: 300px;
+    background: rgb(255, 0, 0);
+    margin: 0 auto;
+    transition: 2s;
+}
+
+/* // estilos de la figura al dar clik en los botones(estado hober) */ 
+
+.fila.cont-fig #figura.cuadrado {
+    width: 300px;
+    height: 300px;
+}
+
+.fila .cont-fig #figura.circulo {
+    border-radius: 50%;
+    transform: rotate(360deg);
+
+}
+
+
+.fila .cont-fig #figura.arriba {
+    transform: translateY(-50px);
+
+}
+
+.fila .cont-fig #figura.abajo {
+    transform: translateY(50px);
+
+}
+
+.fila .cont-fig #figura.derecha {
+    transform: translateX(80px);
+
+}
+
+.fila .cont-fig #figura.isquierda {
+    transform: translateX(-80px);
+
+}
+
+.fila .cont-fig #figura.imagen {
+    background-image: url(../img/figurails.jpg);
+
+}
+
+.fila .cont-fig #figura.digsupis {
+    transform: translate(-90px, -52px);
+
+}
+
+.fila .cont-fig #figura.diginfdr {
+    transform: translate(90px, 90px);
+
+}
+
+.fila .cont-fig #figura.recthoriz {
+    width: 500px;
+    height: 200px;
+
+}
+
+.fila .cont-fig #figura.rectverti {
+    width: 200px;
+    height: 400px;
+
+}
+
+.fila .cont-fig #figura.rombo {
+    width: 200px;
+    height: 200px;
+    transform: rotate(45DEG);
+
+}
+
+
+
+
+
+.MENU{
+    padding: 8px 20px;
+    background:red ;
+    color: white;
+    position:absolute;
+    right: 360px;
+    bottom:150px;
+    text-decoration: none ;
+    border: 5px outset;
+    transition: 1s;
+
+}
+
+.MENU:hover{
+background: black;
+padding: 8px 40px;
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+}

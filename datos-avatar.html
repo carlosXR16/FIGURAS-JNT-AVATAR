@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATOS-AVATAR</title>
+    <link rel="stylesheet" href="css/style-avatar.css">
+</head>
+<body>
+
+
+    <div class="fila">
+        <div id="formulario">
+            <h2>INFO-AVATARS</h2>
+
+            <form>
+                    <label for="#">NOMBRES:</label>
+                    <input type="text" id="cNOMBRES" placeholder="Ej:carlos rojas">
+                <br>
+                    <label for="#">EDAD:</label>
+                    <input type="number" id="cEDAD" placeholder="Ej:12">
+                <br>
+                    <label for="#">FECHA DE NACIMIENTO:</label>
+                    <input type="date" id="cFECHA">
+                <br>
+                    <label for="#">GENERO:</label>
+                    <select name="#" id="cGENERO">
+                        <option value="">Seleccionar...</option>
+                        <option value="Femenino">FEMENINO</option>
+                        <option value="masculino">MASCULINO</option>
+                        <option value="Otro">OTRO</option>
+                        </select>
+                <br>
+                    <label for="#">EMAIL:</label>
+                    <input type="email" id="cEMAIL" placeholder="Ej:tucorreo@hotmail.com">
+                <br>
+                    <label for="#">DESCRIPCION PERSONALIDAD:</label>
+                    <textarea name="#" id="cDESCRIPC" cols="30" rows="4"></textarea>
+                <br>
+                    <label for="#">COLOR:</label>
+                        <select name="#" id="cCOLOR">
+                        <option value="">SELECCIONAR...</option>
+                        <option value="Rojo">ROJO</option>
+                        <option value="Negro">NEGRO</option>
+                        <option value="Azul">AZUL</option>
+                        </select>
+                <br>
+            </form>
+                    <button onclick="capturarDATOS()" type="submit">CAPTURAR DATOS</button>
+        </div>
+
+        <div id="card-avatar">
+            <H2>AVATAR</H2>
+            <img id="foto" src="img/hacker.png" alt="avatar por defecto">
+            <p><b>NOMBRES:</b></p>
+            <P id="mNOMBRES"></P>
+            <P><b>EDAD:</b></P>
+            <P id="mEDAD"></P>
+            <P><b>FECHA DE NACIMIENTO:</b></P>
+            <P id="mFECHA"></P>
+            <P><b>GENERO:</b></P>
+            <P id="mGENERO"></P>
+            <P><b>EMAIL:</b></P>
+            <P id="mEMAIL"></P>
+            <P><b>DESCRIPCION PERSONALIDAD:</b></P>
+            <P id="mDESCRIPC"></P>
+
+    </div>
+    <a class=" MENU" href="index.html">IR-A-FIGURA</a>
+
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
